@@ -1,0 +1,46 @@
+html{
+  font-family: 'Arial';
+  color: white;
+}
+
+.header-title{
+  text-align: center;
+  background-color: deepskyblue;
+  padding: 8px 8px;
+}
+
+.side-panel{
+  width: 130px;
+  background-color: deepskyblue;
+}
+
+.client-att, .client-name{
+  padding: 4px 2px 2px 8px;
+  font-size: 15px;
+  display: 'block';
+  width: 120px;
+}
+
+.client-att:hover, .client-name:hover{
+  background-color: black;
+  cursor: pointer;
+  color: deepskyblue;
+}
+
+.job-name, .banner-size{
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.att-banner-size-0, .att-banner-size-1{
+  margin-left: 14px;
+  font-size: 13px;
+}
+
+/* .show{
+  display: 'block';
+} */
+
+.none{
+  display: none;
+}
